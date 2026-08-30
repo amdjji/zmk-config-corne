@@ -1,7 +1,48 @@
 layout: {zmk_keyboard: corne}
 layers:
-  BASE: ['', Q, W, E, R, T, Y, U, I, O, P, '', '', A, S, D, F, G, H, J, K, L, ;, '', '', Z, X, C, V, B, N, M, ',', ., /, '', LEFT GUI, NAV, BSPC, SPACE, SYMBOLS,
-    ENTER]
+  BASE:
+  - ''
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Z
+  - U
+  - I
+  - O
+  - P
+  - ''
+  - ''
+  - {t: A, h: LCTRL}
+  - {t: S, h: LALT}
+  - {t: D, h: LGUI}
+  - {t: F, h: LSHFT}
+  - G
+  - {t: H, h: RCTRL}
+  - {t: J, h: RSHFT}
+  - {t: K, h: RGUI}
+  - {t: L, h: RALT}
+  - {t: ;, h: RCTRL}
+  - ''
+  - ''
+  - Y
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - ''
+  - LEFT GUI
+  - NAV
+  - BSPC
+  - SPACE
+  - SYMBOLS
+  - ENTER
   SYMBOLS:
   - {t: ▽, type: trans}
   - '1'
