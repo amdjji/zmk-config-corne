@@ -63,7 +63,7 @@
         git_commit_all: git_commit_all {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp G &kp I &kp T &kp SPACE &kp C &kp O &kp M &kp M &kp I &kp T &kp SPACE &kp MINUS &kp A &kp MINUS &kp M &kp SPACE &kp DQT &kp DQT &kp LEFT_ARROW>;
+            bindings = <&kp G &kp I &kp T &kp SPACE &kp C &kp O &kp M &kp M &kp I &kp T &kp SPACE &kp SLASH &kp A &kp SLASH &kp M &kp SPACE &kp LS(N2) &kp LS(N2) &kp LEFT_ARROW>;
             label = "GIT_COMMIT";
         };
     };
@@ -84,9 +84,9 @@
         symbols_layer {
             label = "SYMBOLS";
             bindings = <
-&trans  &kp N1     &kp N2     &kp N3    &kp N4     &kp N5       &kp N6            &kp N7             &kp N8          &kp N9           &kp N0         &trans
-&trans  &kp EXCL   &kp AT     &kp HASH  &kp DLLR   &kp PRCNT    &kp CARET         &kp AMPS           &kp ASTERISK    &kp LPAR         &kp RPAR       &trans
-&trans  &kp GRAVE  &kp TILDE  &kp PIPE  &kp EQUAL  &kp PLUS     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp BACKSLASH  &trans
+&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans
+&trans  &kp LS(RBKT)  &kp RA(N2)  &kp RA(N3)  &kp BACKSLASH  &kp LS(N5)  &kp EQUAL  &kp LS(N6)  &kp LS(N3)  &kp LS(N8)  &kp LS(N9)  &trans
+&trans  &kp LS(EQUAL)  &kp RA(EQUAL)  &kp RA(N7)  &kp LS(N0)  &kp LS(N1)  &kp RA(LBKT)  &kp RA(RBKT)  &kp RA(APOS)  &kp RA(BACKSLASH)  &kp RA(NUBS)  &trans
                               &kp ESC   &kp LSHFT  &trans       &kp RCTRL         &trans             &trans
             >;
         };
@@ -94,10 +94,10 @@
         nav_layer {
             label = "NAV";
             bindings = <
-&trans  &studio_unlock  &kp LG(LEFT_BRACKET)  &kp LS(TAB)        &kp TAB          &kp LG(RIGHT_BRACKET)    &kp LA(LEFT)       &kp LA(DOWN)  &kp LA(UP)  &kp LA(RIGHT)  &trans  &trans
-&trans  &kp LS(LSHFT)   &trans                &kp K_SCROLL_DOWN  &kp K_SCROLL_UP  &bt BT_CLR               &kp LEFT           &kp DOWN      &kp UP      &kp RIGHT      &trans  &trans
-&trans  &trans          &kp HOME              &kp PG_DN          &kp PG_UP        &kp END                  &kp LG(LEFT)       &kp LG(DOWN)  &kp LG(UP)  &kp LG(RIGHT)  &trans  &trans
-                                              &trans             &trans           &trans                   &kp LC(LG(SPACE))  &trans        &trans
+&trans  &studio_unlock  &kp LG(RA(N5))  &kp LS(TAB)  &kp TAB  &kp LG(RA(N6))  &kp LA(LEFT)  &kp LA(DOWN)  &kp LA(UP)  &kp LA(RIGHT)  &trans  &trans
+&trans  &kp LS(LSHFT)  &trans  &kp K_SCROLL_DOWN  &kp K_SCROLL_UP  &bt BT_CLR  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
+&trans  &trans  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END  &kp LG(LEFT)  &kp LG(DOWN)  &kp LG(UP)  &kp LG(RIGHT)  &trans  &trans
+                       &trans  &trans  &trans  &kp LC(LG(SPACE))  &trans  &trans
             >;
         };
 
