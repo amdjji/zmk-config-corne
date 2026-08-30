@@ -42,7 +42,7 @@ layers:
   - ESC
   - LSHFT
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RCTRL
   - {type: held}
   - {t: ▽, type: trans}
   NAV:
