@@ -16,28 +16,28 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '`'
-  - '~'
-  - '|'
-  - '='
-  - +
-  - '['
-  - ']'
-  - '{'
-  - '}'
+  - Sft+]
+  - AltGr+2
+  - AltGr+3
   - \
+  - Sft+5
+  - '='
+  - Sft+6
+  - Sft+3
+  - Sft+8
+  - Sft+9
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+=
+  - AltGr+=
+  - AltGr+7
+  - Sft+0
+  - Sft+1
+  - AltGr+[
+  - AltGr+]
+  - AltGr+'
+  - AltGr+\
+  - AltGr+NUBS
   - {t: ▽, type: trans}
   - ESC
   - LSHFT
@@ -48,10 +48,10 @@ layers:
   NAV:
   - {t: ▽, type: trans}
   - '&studio_unlock'
-  - Gui+[
+  - Gui+AltGr+5
   - Sft+TAB
   - TAB
-  - Gui+]
+  - Gui+AltGr+6
   - Alt+LEFT
   - Alt+DOWN
   - Alt+UP
