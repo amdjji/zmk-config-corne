@@ -47,7 +47,7 @@ layers:
   - {t: ▽, type: trans}
   NAV:
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&studio_unlock'
   - Gui+[
   - Sft+TAB
   - TAB
