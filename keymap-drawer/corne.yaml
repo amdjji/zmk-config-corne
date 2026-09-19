@@ -37,12 +37,12 @@ layers:
   - .
   - /
   - ''
-  - LEFT GUI
+  - ESCAPE
   - NAV
-  - BSPC
-  - ENTER
   - SPACE
+  - ENTER
   - SYMBOLS
+  - BACKSPACE
   SYMBOLS:
   - {t: ▽, type: trans}
   - '1'
@@ -84,8 +84,8 @@ layers:
   - LSHFT
   - ''''
   - RCTRL
-  - '['
-  - {type: held}
+  - {t: '[', type: held}
+  - {t: ▽, type: trans}
   NAV:
   - {t: ▽, type: trans}
   - '&studio_unlock'
@@ -170,8 +170,8 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
 combos:
 - p: [0, 38, 5]
   k: BT CLR
