@@ -38,10 +38,10 @@ layers:
   - /
   - ''
   - ESCAPE
-  - NAV
+  - SYMBOLS
   - SPACE
   - ENTER
-  - SYMBOLS
+  - NAV
   - BACKSPACE
   SYMBOLS:
   - {t: ▽, type: trans}
@@ -81,10 +81,10 @@ layers:
   - AltGr+NUBS
   - {t: ▽, type: trans}
   - ESC
-  - LSHFT
+  - {t: LSHFT, type: held}
   - ''''
   - RCTRL
-  - {t: '[', type: held}
+  - '['
   - {t: ▽, type: trans}
   NAV:
   - {t: ▽, type: trans}
@@ -124,10 +124,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Ctl+Gui+SPACE
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   EXT:
   - {t: ▽, type: trans}
