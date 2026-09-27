@@ -105,11 +105,11 @@ layers:
   - SCROLL DOWN
   - SCROLL UP
   - BT CLR
+  - {t: ▽, type: trans}
   - LEFT
   - DOWN
   - UP
   - RIGHT
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&studio_unlock'
@@ -117,11 +117,11 @@ layers:
   - PG DN
   - PG UP
   - END
+  - {t: ▽, type: trans}
   - Gui+LEFT
   - Gui+DOWN
   - Gui+UP
   - Gui+RIGHT
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
