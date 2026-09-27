@@ -105,8 +105,8 @@
             label = "NAV";
             bindings = <
 &trans  &studio_unlock  &kp LG(RA(N5))  &kp LS(TAB)        &kp TAB          &kp LG(RA(N6))    &kp LA(LEFT)       &kp LA(DOWN)  &kp LA(UP)  &kp LA(RIGHT)  &trans  &trans
-&trans  &kp LS(LSHFT)   &trans          &kp K_SCROLL_DOWN  &kp K_SCROLL_UP  &bt BT_CLR        &kp LEFT           &kp DOWN      &kp UP      &kp RIGHT      &trans  &trans
-&trans  &studio_unlock  &kp HOME        &kp PG_DN          &kp PG_UP        &kp END           &kp LG(LEFT)       &kp LG(DOWN)  &kp LG(UP)  &kp LG(RIGHT)  &trans  &trans
+&trans  &kp LS(LSHFT)   &trans          &kp K_SCROLL_DOWN  &kp K_SCROLL_UP  &bt BT_CLR        &trans             &kp LEFT      &kp DOWN      &kp UP      &kp RIGHT      &trans
+&trans  &studio_unlock  &kp HOME        &kp PG_DN          &kp PG_UP        &kp END           &trans             &kp LG(LEFT)  &kp LG(DOWN)  &kp LG(UP)  &kp LG(RIGHT)  &trans 
                                         &trans             &trans           &trans            &kp LC(LG(SPACE))  &trans        &trans
             >;
         };
